@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2A6A96209A2D2700348F7B /* ElishaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */; };
 		8C37B83E2098D5D50036A01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37B83D2098D5D50036A01C /* AppDelegate.swift */; };
 		8C37B8402098D5D50036A01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37B83F2098D5D50036A01C /* ViewController.swift */; };
 		8C37B8432098D5D50036A01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C37B8412098D5D50036A01C /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElishaViewController.swift; sourceTree = "<group>"; };
 		8C37B83A2098D5D50036A01C /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C37B83D2098D5D50036A01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C37B83F2098D5D50036A01C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				8C37B83D2098D5D50036A01C /* AppDelegate.swift */,
 				8C37B83F2098D5D50036A01C /* ViewController.swift */,
 				8C37B8412098D5D50036A01C /* Main.storyboard */,
+				8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */,
 				8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */,
 				8C4798F3209A273800294DBB /* MaxViewController.swift */,
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C37B8402098D5D50036A01C /* ViewController.swift in Sources */,
+				8C2A6A96209A2D2700348F7B /* ElishaViewController.swift in Sources */,
 				8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */,
 				8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */,
 				8C37B83E2098D5D50036A01C /* AppDelegate.swift in Sources */,
