@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="490" y="136"/>
         </scene>
-        <!--View Controller-->
+        <!--Max View Controller-->
         <scene sceneID="VOg-Mm-Mo8">
             <objects>
-                <viewController id="2s0-CK-wp0" sceneMemberID="viewController">
+                <viewController id="2s0-CK-wp0" customClass="MaxViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MxS-wa-iOa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
