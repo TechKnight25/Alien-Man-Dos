@@ -9,7 +9,6 @@
 import UIKit
 
 class MarkViewController: UIViewController {
-var mark = "badAtCoding"
     override func viewDidLoad() {
         super.viewDidLoad()
 
