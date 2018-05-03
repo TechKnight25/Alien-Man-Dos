@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1037363766144-j8e8v71429ebsrdd84dajpi1ti9ea7sb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1037363766144-j8e8v71429ebsrdd84dajpi1ti9ea7sb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAbifDStpTsCyT698LuDVvY3oAJmf_sZ4I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1037363766144</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.coders.workoutapp</string>
+	<key>PROJECT_ID</key>
+	<string>project-c1cd2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project-c1cd2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1037363766144:ios:0a82b923c0d3d93d</string>
+	<key>DATABASE_URL</key>
+	<string>https://project-c1cd2.firebaseio.com</string>
+</dict>
+</plist>

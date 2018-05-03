@@ -52,6 +52,7 @@
 		8C37B85D2098D5D50036A01C /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		8C37B85F2098D5D50036A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4798F3209A273800294DBB /* MaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewController.swift; sourceTree = "<group>"; };
+		8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +113,7 @@
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
 				8C37B8462098D5D50036A01C /* LaunchScreen.storyboard */,
 				8C37B8492098D5D50036A01C /* Info.plist */,
+				8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
