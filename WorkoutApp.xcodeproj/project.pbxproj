@@ -115,6 +115,7 @@
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
 				8C37B8462098D5D50036A01C /* LaunchScreen.storyboard */,
 				8C37B8492098D5D50036A01C /* Info.plist */,
+				8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
