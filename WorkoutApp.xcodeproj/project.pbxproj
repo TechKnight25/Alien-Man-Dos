@@ -16,6 +16,7 @@
 		8C37B8532098D5D50036A01C /* WorkoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37B8522098D5D50036A01C /* WorkoutAppTests.swift */; };
 		8C37B85E2098D5D50036A01C /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37B85D2098D5D50036A01C /* WorkoutAppUITests.swift */; };
 		8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4798F3209A273800294DBB /* MaxViewController.swift */; };
+		8C9295A0209B7AD80003CB36 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92959F209B7AD80003CB36 /* Workouts.swift */; };
 		8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		8C37B85D2098D5D50036A01C /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		8C37B85F2098D5D50036A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4798F3209A273800294DBB /* MaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewController.swift; sourceTree = "<group>"; };
+		8C92959F209B7AD80003CB36 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				8C37B83F2098D5D50036A01C /* ViewController.swift */,
 				8C37B8412098D5D50036A01C /* Main.storyboard */,
 				8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */,
+				8C92959F209B7AD80003CB36 /* Workouts.swift */,
 				8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */,
 				8C4798F3209A273800294DBB /* MaxViewController.swift */,
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 				8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */,
 				8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */,
 				8C37B83E2098D5D50036A01C /* AppDelegate.swift in Sources */,
+				8C9295A0209B7AD80003CB36 /* Workouts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
