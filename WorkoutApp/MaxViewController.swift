@@ -7,28 +7,24 @@
 //
 
 import UIKit
-
+import WebKit
 class MaxViewController: UIViewController {
 
+    @IBOutlet weak var myWebView2: WKWebView!
+    @IBOutlet weak var myWebView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let url = URL(string: "https://www.youtube.com/watch?v=RNGueeFF0HU")
+        let request = URLRequest(url: url!)
+        
+        let url2 = URL(string: "https://www.youtube.com/watch?v=fCebJodm0lY")
+        let request2 = URLRequest(url: url2!)
+        myWebView.load(request)
+        myWebView2.load(request2)
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
