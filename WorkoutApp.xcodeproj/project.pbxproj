@@ -17,9 +17,9 @@
 		8C37B8532098D5D50036A01C /* WorkoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37B8522098D5D50036A01C /* WorkoutAppTests.swift */; };
 		8C37B85E2098D5D50036A01C /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37B85D2098D5D50036A01C /* WorkoutAppUITests.swift */; };
 		8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4798F3209A273800294DBB /* MaxViewController.swift */; };
+		8C9295A0209B7AD80003CB36 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92959F209B7AD80003CB36 /* Workouts.swift */; };
 		8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */; };
-		A51573551B25C5A85E902535 /* Pods_WorkoutApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106FAE887AF22D4C58B408C2 /* Pods_WorkoutApp.framework */; };
-		C195CF3F8B3D061CB3787F2D /* Pods_WorkoutAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F74C5C3EF4837B3F47E3147 /* Pods_WorkoutAppUITests.framework */; };
+		8CAF068F209CCAD600CFBEDE /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +63,7 @@
 		8C662D9F20A0C1C400035E35 /* WorkoutApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkoutApp.entitlements; sourceTree = "<group>"; };
 		8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
-		ADF83D7BA5DE165027C887FB /* Pods_WorkoutAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkoutAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD13CB35DB658CB23D5F7B91 /* Pods-WorkoutAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutAppUITests.release.xcconfig"; path = "WorkoutApp.xcodeproj/Pods/Target Support Files/Pods-WorkoutAppUITests/Pods-WorkoutAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DD9A3A5617F574D16580A752 /* Pods-WorkoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.debug.xcconfig"; path = "WorkoutApp.xcodeproj/Pods/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FC49F919F6C724D1AE9BA376 /* Pods-WorkoutAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutAppUITests.debug.xcconfig"; path = "WorkoutApp.xcodeproj/Pods/Target Support Files/Pods-WorkoutAppUITests/Pods-WorkoutAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +147,13 @@
 				8C37B83F2098D5D50036A01C /* ViewController.swift */,
 				8C37B8412098D5D50036A01C /* Main.storyboard */,
 				8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */,
+				8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */,
+				8C92959F209B7AD80003CB36 /* Workouts.swift */,
 				8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */,
 				8C4798F3209A273800294DBB /* MaxViewController.swift */,
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
 				8C37B8462098D5D50036A01C /* LaunchScreen.storyboard */,
 				8C37B8492098D5D50036A01C /* Info.plist */,
-				8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -405,6 +403,8 @@
 				8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */,
 				8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */,
 				8C37B83E2098D5D50036A01C /* AppDelegate.swift in Sources */,
+				8CAF068F209CCAD600CFBEDE /* SafariViewController.swift in Sources */,
+				8C9295A0209B7AD80003CB36 /* Workouts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
