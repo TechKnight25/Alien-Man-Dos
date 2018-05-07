@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ElishaViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
@@ -14,6 +15,7 @@ class ElishaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     var workOuts = [Workout]()
     
+    @IBOutlet weak var tableView: UITableView!
     
     
     override func viewDidLoad()
@@ -32,10 +34,16 @@ class ElishaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         cell?.textLabel?.text = workOuts[indexPath.row].name
         cell?.detailTextLabel?.text = workOuts[indexPath.row].difficulty
         return cell!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! SafariViewController
+        let indexPath = tableView.indexPathForSelectedRow
+        vc.selectedWorkout = workOuts[(indexPath?.row)!]
     }
     
 }

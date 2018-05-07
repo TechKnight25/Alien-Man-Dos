@@ -18,6 +18,7 @@
 		8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4798F3209A273800294DBB /* MaxViewController.swift */; };
 		8C9295A0209B7AD80003CB36 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92959F209B7AD80003CB36 /* Workouts.swift */; };
 		8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */; };
+		8CAF068F209CCAD600CFBEDE /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8C4798F3209A273800294DBB /* MaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewController.swift; sourceTree = "<group>"; };
 		8C92959F209B7AD80003CB36 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
+		8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,13 @@
 				8C37B83F2098D5D50036A01C /* ViewController.swift */,
 				8C37B8412098D5D50036A01C /* Main.storyboard */,
 				8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */,
+				8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */,
 				8C92959F209B7AD80003CB36 /* Workouts.swift */,
 				8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */,
 				8C4798F3209A273800294DBB /* MaxViewController.swift */,
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
 				8C37B8462098D5D50036A01C /* LaunchScreen.storyboard */,
 				8C37B8492098D5D50036A01C /* Info.plist */,
-				8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -277,6 +279,7 @@
 				8C937BCF209A2A4E00069AB3 /* MarkViewController.swift in Sources */,
 				8C4798F4209A273800294DBB /* MaxViewController.swift in Sources */,
 				8C37B83E2098D5D50036A01C /* AppDelegate.swift in Sources */,
+				8CAF068F209CCAD600CFBEDE /* SafariViewController.swift in Sources */,
 				8C9295A0209B7AD80003CB36 /* Workouts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
