@@ -60,6 +60,7 @@
 		8C37B85D2098D5D50036A01C /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		8C37B85F2098D5D50036A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4798F3209A273800294DBB /* MaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewController.swift; sourceTree = "<group>"; };
+		8C662D9F20A0C1C400035E35 /* WorkoutApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkoutApp.entitlements; sourceTree = "<group>"; };
 		8C92E578209B7C0A00DD561B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
 		ADF83D7BA5DE165027C887FB /* Pods_WorkoutAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkoutAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +145,7 @@
 		8C37B83C2098D5D50036A01C /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C662D9F20A0C1C400035E35 /* WorkoutApp.entitlements */,
 				8C37B83D2098D5D50036A01C /* AppDelegate.swift */,
 				8C37B83F2098D5D50036A01C /* ViewController.swift */,
 				8C37B8412098D5D50036A01C /* Main.storyboard */,
@@ -249,6 +251,11 @@
 					8C37B8392098D5D50036A01C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					8C37B84D2098D5D50036A01C = {
 						CreatedOnToolsVersion = 9.0;
@@ -564,11 +571,12 @@
 			baseConfigurationReference = DD9A3A5617F574D16580A752 /* Pods-WorkoutApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WorkoutApp/WorkoutApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E48AHVDR9S;
+				DEVELOPMENT_TEAM = BWYT76Q3DS;
 				INFOPLIST_FILE = WorkoutApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PHS.WorkoutApp;
+				PRODUCT_BUNDLE_IDENTIFIER = PHS.WorkoutAppp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -580,11 +588,12 @@
 			baseConfigurationReference = 53DB50E1884C6EE0C9B437B7 /* Pods-WorkoutApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WorkoutApp/WorkoutApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E48AHVDR9S;
+				DEVELOPMENT_TEAM = BWYT76Q3DS;
 				INFOPLIST_FILE = WorkoutApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PHS.WorkoutApp;
+				PRODUCT_BUNDLE_IDENTIFIER = PHS.WorkoutAppp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
