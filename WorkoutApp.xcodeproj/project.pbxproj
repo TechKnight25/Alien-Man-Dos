@@ -71,6 +71,7 @@
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
 		8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		8CBD95B720A20EF20076F53A /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		8CBD95B920A211930076F53A /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		AB1DC44FEE83504C333C9C98 /* Pods-WorkoutAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutAppUITests.release.xcconfig"; path = "WorkoutApp.xcodeproj/Pods/Target Support Files/Pods-WorkoutAppUITests/Pods-WorkoutAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +164,7 @@
 				8C37B8442098D5D50036A01C /* Assets.xcassets */,
 				8C37B8462098D5D50036A01C /* LaunchScreen.storyboard */,
 				8C37B8492098D5D50036A01C /* Info.plist */,
+				8CBD95B920A211930076F53A /* GoogleService-Info (1).plist */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
