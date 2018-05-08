@@ -21,11 +21,11 @@ class ElishaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        let jumpingJacks = workOuts(Name: "Jumping Jack", URL: "https://www.youtube.com/watch?v=dmYwZH_BNd0", Difficulty: "Easy")
+        let jumpingJacks = Workout(Name: "Jumping Jack", URL: "https://www.youtube.com/watch?v=dmYwZH_BNd0", Difficulty: "Easy")
         workOuts.append(jumpingJacks)
-        let mountainClimber = workOuts(Name: "Mountain Climber", URL: "https://www.youtube.com/watch?v=1J4hRICVjRo", Difficulty: "Medium")
+        let mountainClimber = Workout(Name: "Mountain Climber", URL: "https://www.youtube.com/watch?v=1J4hRICVjRo", Difficulty: "Medium")
         workOuts.append(mountainClimber)
-        let burpee = workOuts(Name: "Burpee", URL: "https://www.youtube.com/watch?v=sLTo-V6RgiE", Difficulty: "Hard")
+        let burpee = Workout(Name: "Burpee", URL: "https://www.youtube.com/watch?v=sLTo-V6RgiE", Difficulty: "Hard")
         workOuts.append(burpee)
     }
     
