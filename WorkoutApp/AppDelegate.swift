@@ -13,7 +13,7 @@ import FirebaseInstanceID
 import FirebaseMessaging
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate,
-UNUserNotificationCenterDelegate, FIRMessagingDelegate{
+UNUserNotificationCenterDelegate, MessagingDelegate{
 
     var window: UIWindow?
 
@@ -28,7 +28,7 @@ UNUserNotificationCenterDelegate, FIRMessagingDelegate{
                 options: authOptions,
                 completionHandler: {_, _ in })
             // For iOS 10 data message (sent via FCM
-            FIRMessaging.messaging().remoteMessageDelegate = self
+            Messaging.messaging().remoteMessageDelegate = self
         } else {
             let settings: UIUserNotificationSettings =
                 UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
@@ -37,12 +37,12 @@ UNUserNotificationCenterDelegate, FIRMessagingDelegate{
         
         application.registerForRemoteNotifications()
         
-        FIRApp.configure()
+        FirebaseApp.configure()
         print("Application did finish launching")
         return true
     }
 
-    func applicationReceivedRemoteMessage(_ remoteMessage: FIRMessagingRemoteMessage) {
+    func application(received remoteMessage: MessagingRemoteMessage) {
         print(remoteMessage.appData)
     }
     
