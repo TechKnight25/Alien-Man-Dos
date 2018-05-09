@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>102146491025-vc4m3qprafl5ocgu8qlu9j7d8sdsk3qi.apps.googleusercontent.com</string>
+	<string>181012513469-9u7dlgnagad6vk58s4lhft4sf11n4lif.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.102146491025-vc4m3qprafl5ocgu8qlu9j7d8sdsk3qi</string>
+	<string>com.googleusercontent.apps.181012513469-9u7dlgnagad6vk58s4lhft4sf11n4lif</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB-ESbKzV02kZ0q69vz3pu7WPs32WWKc04</string>
+	<string>AIzaSyAcL1ObGO4UM9obyE7y-lfU_6xIpOZW6gk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>102146491025</string>
+	<string>181012513469</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>ss</string>
+	<string>com.phs.workoutapp</string>
 	<key>PROJECT_ID</key>
-	<string>dsadsadsa-3ef5e</string>
+	<string>ewsdds-2539d</string>
 	<key>STORAGE_BUCKET</key>
-	<string>dsadsadsa-3ef5e.appspot.com</string>
+	<string>ewsdds-2539d.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:102146491025:ios:369cbcc767f41aa5</string>
+	<string>1:181012513469:ios:241c664654762df9</string>
 	<key>DATABASE_URL</key>
-	<string>https://dsadsadsa-3ef5e.firebaseio.com</string>
+	<string>https://ewsdds-2539d.firebaseio.com</string>
 </dict>
 </plist>

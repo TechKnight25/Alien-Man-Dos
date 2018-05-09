@@ -65,7 +65,7 @@
 		8C37B85F2098D5D50036A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4798F3209A273800294DBB /* MaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewController.swift; sourceTree = "<group>"; };
 		8C662D9F20A0C1C400035E35 /* WorkoutApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkoutApp.entitlements; sourceTree = "<group>"; };
-		8C7EF8B620A362EE00E72C9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C7EF8B720A363F400E72C9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkViewController.swift; sourceTree = "<group>"; };
 		8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		8CBD95B720A20EF20076F53A /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				8C37B8412098D5D50036A01C /* Main.storyboard */,
 				8C2A6A95209A2D2700348F7B /* ElishaViewController.swift */,
 				8CBD95B720A20EF20076F53A /* Workouts.swift */,
-				8C7EF8B620A362EE00E72C9D /* GoogleService-Info.plist */,
+				8C7EF8B720A363F400E72C9D /* GoogleService-Info.plist */,
 				8CAF068E209CCAD600CFBEDE /* SafariViewController.swift */,
 				8C937BCE209A2A4E00069AB3 /* MarkViewController.swift */,
 				8C4798F3209A273800294DBB /* MaxViewController.swift */,
