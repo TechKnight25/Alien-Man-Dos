@@ -38,6 +38,7 @@ UNUserNotificationCenterDelegate, MessagingDelegate{
         application.registerForRemoteNotifications()
         
         FirebaseApp.configure()
+        Messaging.messaging().delegate = self
         print("Application did finish launching")
         return true
     }
