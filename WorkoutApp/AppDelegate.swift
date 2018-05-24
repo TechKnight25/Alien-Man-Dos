@@ -44,6 +44,7 @@ UNUserNotificationCenterDelegate, MessagingDelegate{
         print("Application did finish launching")
         return true
     }
+    
     func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
         let token = Messaging.messaging().fcmToken
         print("FCM token: \(token ?? "")")
@@ -62,15 +63,22 @@ UNUserNotificationCenterDelegate, MessagingDelegate{
         // Print full message.
         print(userInfo)
     }
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any],
-                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        if let messageID = userInfo[gcmMessageIDKey] {
-            print("Message ID: \(messageID)")
-        }
-        // Print full message.
-        print(userInfo)
-        completionHandler(UIBackgroundFetchResult.newData)
+ 
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        #if PROD_BUILD
+        FIRInstanceID.instanceID().setAPNSToken(deviceToken, type: .prod)
+        #else
+        InstanceID.instanceID().setAPNSToken(deviceToken, type: .sandbox)
+        #endif
     }
+    
+    func application(_ application: UIApplication,
+                     didReceiveRemoteNotification userInfo: [AnyHashable : Any],
+                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Swift.Void) {
+        Messaging.messaging().appDidReceiveMessage(userInfo)
+    }
+    
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -85,6 +93,8 @@ UNUserNotificationCenterDelegate, MessagingDelegate{
         
         completionHandler()
     }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
